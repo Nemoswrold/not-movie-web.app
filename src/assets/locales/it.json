@@ -30,7 +30,7 @@
       "passphraseFrameLabel": "Frase password",
       "title": "La tua frase password"
     },
-    "hasAccount": "Hai già un account? <0>Accedi </0>",
+    "hasAccount": "Hai già un account? <0>Accedi.</0>",
     "login": {
       "description": "Inserisci la tua frase password per accedere al vostro account",
       "deviceLengthError": "Inserisci un nome per il dispositivo",
@@ -57,6 +57,8 @@
       },
       "host": "Ti stai collegando a <0>{{hostname}}</0> - conferma la tua fiducia prima di creare un account",
       "no": "Indietro",
+      "noHost": "Il server non è configurato, quindi non si può creare un account",
+      "noHostTitle": "Server non è configurato!",
       "title": "Ti fidi di questo server?",
       "yes": "Mi fido di questo server"
     },
@@ -153,7 +155,8 @@
     "types": {
       "movie": "Film",
       "show": "Serie"
-    }
+    },
+    "unreleased": "Inedito"
   },
   "navigation": {
     "banner": {
@@ -292,6 +295,7 @@
         "title": "Qualità"
       },
       "settings": {
+        "audioItem": "Audio",
         "downloadItem": "Scarica",
         "enableSubtitles": "Abilita i sottotitoli",
         "experienceSection": "Esperienza di visione",
@@ -318,8 +322,9 @@
         "unknownOption": "Sconosciuto"
       },
       "subtitles": {
-        "customChoice": "Selezionare i sottotitoli dal file",
+        "customChoice": "Trascina o carica il file",
         "customizeLabel": "Personalizzare",
+        "dropSubtitleFile": "Trascina il file dei sottotitoli qui",
         "offChoice": "Spento",
         "settings": {
           "backlink": "Sottotitoli personalizzati",
@@ -377,6 +382,13 @@
       "title": "Impossibile riprodurre il video!"
     },
     "scraping": {
+      "extensionFailure": {
+        "badge": "L'estensione è disabilitata",
+        "enableExtension": "Abilita l'estensione",
+        "homeButton": "Torna alla pagina iniziale",
+        "text": "Avete installato l'estensione movie-web. Per iniziare a usarla, è necessario abilitare l'estensione per questo sito.",
+        "title": "Abilita l'estensione"
+      },
       "items": {
         "failure": "Si è verificato un errore",
         "notFound": "Non ha il video",
@@ -534,6 +546,7 @@
       }
     },
     "subtitles": {
+      "backgroundBlurLabel": "Sfocatura di sfondo",
       "backgroundLabel": "Opacità di sfondo",
       "colorLabel": "Colore",
       "previewQuote": "Cantami o Diva del pelide Achille l'ira funesta.",
