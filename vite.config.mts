@@ -1,5 +1,5 @@
 import { defineConfig } from "vitest/config";
-import react from "@vitejs/plugin-react";
+import { VitePluginReact } from "vite-plugin-react";
 import loadVersion from "vite-plugin-package-version";
 import { VitePWA } from "vite-plugin-pwa";
 import checker from "vite-plugin-checker";
@@ -37,23 +37,7 @@ export default defineConfig(({ mode }) => {
           env,
         },
       }),
-      react({
-        babel: {
-          presets: [
-            "@babel/preset-typescript",
-            [
-              "@babel/preset-env",
-              {
-                modules: false,
-                useBuiltIns: "entry",
-                corejs: {
-                  version: "3.34",
-                },
-              },
-            ],
-          ],
-        },
-      }),
+      VitePluginReact(),
       VitePWA({
         disable: env.VITE_PWA_ENABLED !== "true",
         registerType: "autoUpdate",
