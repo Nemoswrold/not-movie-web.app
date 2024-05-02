@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitest/config';
+import { defineConfig } from 'vitest';
 import react from '@vitejs/plugin-react';
 import loadVersion from 'vite-plugin-package-version';
 import { VitePWA } from 'vite-plugin-pwa';
@@ -164,17 +164,4 @@ export default defineConfig(({ mode }) => {
     },
 
     resolve: {
-      alias: {
-        '@': path.resolve(__dirname, './src'),
-        '@sozialhelden/ietf-language-tags': path.resolve(
-          __dirname,
-          './node_modules/@sozialhelden/ietf-language-tags/dist/cjs',
-        ),
-      },
-    },
-
-    test: {
-      environment: 'jsdom',
-    },
-  };
-});
+      alias:
