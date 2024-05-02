@@ -13,14 +13,11 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
     "jsx": "react-jsx",
-    "baseUrl": "./src",
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["./*"],
-      "@sozialhelden/ietf-language-tags": [
-        "../node_modules/@sozialhelden/ietf-language-tags/dist/cjs"
-      ]
+      "@/*": ["src/*"],
+      "@sozialhelden/ietf-language-tags": ["../node_modules/@sozialhelden/ietf-language-tags/dist/cjs"]
     },
     "types": ["vite/client", "vite-plugin-pwa/vanillajs"]
   },
