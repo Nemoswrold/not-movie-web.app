@@ -23,7 +23,7 @@ dependencies:
     version: 1.0.3
   '@movie-web/providers':
     specifier: github:Nemoswrold/mw-providers
-    version: github.com/Nemoswrold/mw-providers/30511f11e8bc3f8b26be356d0db59acc100cf92e
+    version: github.com/Nemoswrold/mw-providers/a58a02c3223b12a10383a822fb58786187117132
   '@noble/hashes':
     specifier: ^1.3.3
     version: 1.3.3
