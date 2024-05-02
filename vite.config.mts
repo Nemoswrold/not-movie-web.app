@@ -164,4 +164,11 @@ export default defineConfig(({ mode }) => {
     },
 
     resolve: {
-      alias:
+      alias: {}, // Empty for now, can be populated with custom aliases
+    },
+
+    test: {
+      environment: 'jsdom',
+    },
+  };
+});
