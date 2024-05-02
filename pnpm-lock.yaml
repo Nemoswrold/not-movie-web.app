@@ -274,7 +274,7 @@ devDependencies:
     version: 0.5.9(prettier@3.1.1)
   rollup-plugin-visualizer:
     specifier: ^5.11.0
-    version: 5.11.0(@rollup/wasm-node@4.14.2)
+    version: 5.11.0(@rollup/wasm-node@4.17.0)
   tailwind-scrollbar:
     specifier: ^3.0.5
     version: 3.0.5(tailwindcss@3.4.0)
